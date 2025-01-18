@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++17 -O3 -DNDEBUG CMakeFiles/GameSolver.dir/main.cpp.o -o GameSolver 
