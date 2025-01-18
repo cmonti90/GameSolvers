@@ -1,0 +1,10 @@
+build/*
+.vscode/*
+*.code-workspace
+*.orig
+.buildit.build
+*.asv
+slprj/*
+*.slxc
+*.autosave
+Sim/config/*

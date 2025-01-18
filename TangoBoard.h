@@ -12,15 +12,19 @@ public:
 
     TangoBoard();
     TangoBoard( const unsigned int boardSize );
-    
+
     ~TangoBoard();
 
     void setBoardSize( const unsigned int boardSize ) { boardSize_ = boardSize; }
 
+
+    bool getBoardValue( const unsigned int row, const unsigned int column ) const;
+    bool getBoardValue( const unsigned int idx ) const;
+
 private:
 
     unsigned int boardSize_;
-    bool board_[DEFAULT_BOARD_SIZE * DEFAULT_BOARD_SIZE];
+    bool* board_;
 
 
 }; // struct TangoBoard
